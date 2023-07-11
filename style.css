@@ -1,0 +1,58 @@
+*, *::after, *::before {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(0deg, #fd7e14 5%, #ffd43b 95%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100dvw;
+	height: 100dvh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 4rem;
+}
+
+#canvas {
+	background-color: antiquewhite;
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px rgb(34, 34, 34);
+}
+
+#heading {
+	font-size: 1.6rem;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#sub-heading {
+	font-size: 1.1rem;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+circle {
+	outline: 1px solid black;
+	border-radius: 100%;
+}
+
+circle:hover {
+	outline: 1px solid red;
+}
+
+#legend {
+	font-size: 0.5rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#year-text, #minutes-text {
+	font-size: 0.5rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 600;
+}
